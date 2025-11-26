@@ -1,0 +1,22 @@
+[project]
+name = "my-xtts-v2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch==2.3.1",
+    "torchaudio==2.3.1", # 버전 명시
+    "cn2an>=0.5.23",
+    "coqui-tts==0.25.3",
+    "cutlet>=0.5.0",
+    "fastapi>=0.122.0",
+    "fugashi>=1.5.2",
+    "jieba>=0.42.1",
+    "pypinyin==0.50.0",
+    "requests>=2.32.5",
+    "soundfile>=0.13.1",
+    "unidic-lite>=1.0.8",
+    "uvicorn[standard]>=0.38.0",
+    "hangul-romanize>=0.1.0",
+]
